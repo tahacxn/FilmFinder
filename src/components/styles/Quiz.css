@@ -1,0 +1,122 @@
+/* Styling for the entire quiz container */
+.quiz-start{
+    background-color: #61677A;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    text-align: center;
+    gap: 2rem;
+    height: 100vh;
+}
+.general-cont{
+    background-color: #61677A;
+    height: 100vh;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+}
+.quiz-header{
+    color: #272829;
+    font-size: 58px;
+}
+.quiz-container {
+    margin:0 auto;
+    padding: 4rem;
+    background-color: #D8D9DA;
+    border-radius: 10px;
+    box-shadow: 0 2px 4px rgba(0, 0, 0, 0.1);
+  }
+
+  /* Styling for quiz questions */
+.quiz-question{
+    margin-bottom: 1rem;
+    color: #272829;
+    text-align: center;
+}
+.quiz-options-container.two-columns {
+    width: 70%;
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-between;
+  }
+
+  /* Styling for quiz option label with two columns */
+  .quiz-options-container.two-columns .quiz-option-label {
+    width: calc(50% - 10px);
+  }
+  /* Styling for quiz options */
+  .quiz-option-label {
+    display: block;
+    margin-bottom: 10px;
+    cursor: pointer;
+  }
+
+  /* Styling for checkboxes and radio buttons */
+  .quiz-option-input {
+    margin-right: 8px;
+  }
+
+  /* Styling for buttons */
+  .quiz-button{
+    margin-top: 1rem ;
+    font-family: 'Karla', sans-serif;
+    font-size: 18px;
+    font-weight: 500;
+    width: 100%;
+    padding: 1.2rem 0;
+    border-radius: 1rem;
+    border: none;
+    color: #272829;
+    background-color:#FFF6E0 ;
+    border-radius: 1rem;
+    cursor: pointer;
+}
+.quiz-button:hover{
+    opacity: .8;
+}
+.start-btn{
+    width: auto;
+    padding: 1.2rem 2.5rem;
+    display: block;
+}
+
+  @media screen and (max-width: 700px){
+    .quiz-options-container.two-columns .quiz-option-label {
+        font-size: 16px;
+      }
+  }
+  /* Mobile screen media query */
+  @media screen and (max-width: 600px) {
+    .quiz-option-label{
+        font-size: 18px;
+    }
+    .quiz-container {
+      padding: 2rem;
+    }
+  .quiz-header{
+    font-size: 26px;
+    padding: 0 2rem;
+  }
+    .quiz-question {
+      font-size: 30px;
+    }
+.quiz-button{
+    padding: .8rem;
+}
+.quiz-options-container.two-columns {
+    display: block; /* Change to block for single-column layout */
+    width: 70%; /* Full width for single column */
+  }
+
+  /* Reset width for quiz option label in single column */
+  .quiz-options-container.two-columns .quiz-option-label {
+    width: 100%;
+    font-size: 14px;
+  }
+  .general-cont{
+    height: auto;
+    padding: 2rem 0;
+}
+
+  }
