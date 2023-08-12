@@ -10,7 +10,7 @@ function App() {
     <Router>
       <Routes>
         <Route path = "/" element = {<Home />}/>
-        <Route path = "/random-movie" element = {<RandomMovie />}/>
+        <Route path = "/FilmFinder" element = {<RandomMovie />}/>
       </Routes>
     </Router>
     </>

@@ -21,7 +21,7 @@ const NavBar = () => {
         <nav ref={navRef}>
             <ul>
                 <li><a href='/'>Home</a></li>
-                <li><a href='/random-movie'>Find A Movie</a></li>
+                <li><a href='/FilmFinder'>Find A Movie</a></li>
             </ul>
             <button
 					className="nav-btn nav-close-btn"

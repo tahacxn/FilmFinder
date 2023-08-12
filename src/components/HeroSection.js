@@ -14,7 +14,7 @@ const HeroSection = () => {
             <div className="hero-img">
                 <img src={movie} className='movie-img' alt='movie-img'></img>
             </div>
-            <a href='/random-movie'>Find Your Movie</a>
+            <a href='/FilmFinder'>Find Your Movie</a>
         </div>
     </div>
     </>
